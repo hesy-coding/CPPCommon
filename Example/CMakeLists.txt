@@ -1,0 +1,3 @@
+add_executable(DisplayExample DisplayExample.cpp)
+target_link_libraries(DisplayExample CPPCommon)
+target_link_libraries(DisplayExample "runtimeobject.lib")
